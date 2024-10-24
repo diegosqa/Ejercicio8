@@ -1,5 +1,5 @@
 from behave import given, when, then
-from protocolo.protocol import Protocol
+from src.protocol import Protocol
 
 @given('el dispositivo A tiene el token "{token}"')
 def step_impl(context, token):
